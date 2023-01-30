@@ -46,5 +46,5 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Test Step No. 1
-      - run:
+        run:
           echo prod!!

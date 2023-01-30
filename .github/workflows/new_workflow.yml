@@ -29,6 +29,10 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, Jonathan Lee!
 
+      # Run a single using runner shell
+      - name: Run another one-liner
+        run: echo Hello, Hello Jonathan Lee!
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |

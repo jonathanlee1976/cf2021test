@@ -40,6 +40,8 @@ jobs:
           echo test, and deploy your project.
  
   test:
+     runs-on: windows-latest
+
      steps:
       - name: Test Step No. 1
       - run:

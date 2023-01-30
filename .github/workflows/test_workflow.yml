@@ -37,7 +37,7 @@ jobs:
 
    test:
       runs-on: windows-latest
-      
+      needs: build
       steps:
          - uses: actions/checkout@v3
          - name: Runs a test script

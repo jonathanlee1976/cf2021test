@@ -38,3 +38,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+ 
+  test:
+     steps:
+      - name: Test Step No. 1
+      - run:
+          echo prod!!

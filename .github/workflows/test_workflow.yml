@@ -23,8 +23,7 @@ jobs:
     container: 
       image: adobecoldfusion/coldfusion2021:2021.0.4
     env:
-      acceptEULA: yes
-
+      acceptEULA: YES
     steps:
       - uses: actions/checkout@v3
       - name: Compile CFML
